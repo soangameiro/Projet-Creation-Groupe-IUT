@@ -1,7 +1,7 @@
 # 📚 Documentation Complète - SAE S3 Gestion des Groupes
 
 > **Projet** : Gestion des Groupes TD/TP  
-> **Auteurs** : Équipe SAE S3  
+> **Auteurs** : Équipe SAE S3  (Jahier Maelan, Grillot Thomas et Gameiro Soan)
 > **Version** : 1.0  
 
 ---
@@ -684,3 +684,4 @@ Complexité : O(nbGroupes^nbEtudiants)
 ---
 
 *Documentation générée le 5 janvier 2026*
+

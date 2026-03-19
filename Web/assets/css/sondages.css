@@ -1,0 +1,140 @@
+/* ==========================================================================
+   STYLES SPÉCIFIQUES PAGE SONDAGES
+   Interface claire et lisible
+   ========================================================================== */
+
+/* Override du body pour la page sondages uniquement */
+body.sondages-page {
+    background-color: #faf8fb !important;
+    color: #191919 !important;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Force le texte sombre sur toute la page */
+body.sondages-page * {
+    color: #191919 !important;
+}
+
+/* Exceptions pour les éléments qui doivent garder leur couleur */
+body.sondages-page .btn-retour,
+body.sondages-page button,
+body.sondages-page .badge-repondu {
+    color: white !important;
+}
+
+.sondage-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.sondage-card {
+    background: white !important;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(150, 3, 60, 0.15);
+    box-shadow: 0 2px 8px rgba(150, 3, 60, 0.08);
+}
+
+.sondage-question {
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    margin-bottom: 15px;
+    color: #96033c !important;
+}
+
+h2.sondages-titre {
+    color: #f472b6 !important;
+}
+
+/* Zone de réponse existante */
+.reponse-existante {
+    background: rgba(52, 211, 153, 0.3);
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #34d399;
+    color: #1f2937;
+    background-color: #d1fae5;
+    margin-bottom: 10px;
+}
+
+.reponse-existante strong {
+    color: #065f46;
+}
+
+/* Badge "Déjà répondu" */
+.badge-repondu {
+    display: inline-block;
+    background: #34d399;
+    color: #064e3b;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Champs de formulaire dans les sondages */
+.sondage-card input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    color: #333;
+}
+
+.sondage-card button {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.sondage-card button:hover {
+    background: #2563eb;
+}
+
+/* Bouton Modifier */
+.btn-modifier {
+    background: #f59e0b !important;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.btn-modifier:hover {
+    background: #d97706 !important;
+}
+
+/* Bouton Annuler */
+.btn-annuler {
+    background: #6b7280 !important;
+}
+
+.btn-annuler:hover {
+    background: #4b5563 !important;
+}
+
+/* Formulaire de modification */
+.form-modifier {
+    margin-top: 10px;
+}
+
+/* Bouton retour sur fond violet */
+.sondages-page .btn-retour {
+    color: #ccc;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.sondages-page .btn-retour:hover {
+    color: white;
+}

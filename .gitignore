@@ -1,0 +1,120 @@
+# ===========================
+# Fichiers système
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ===========================
+# Java - Fichiers compilés
+# ===========================
+*.class
+*.jar
+!COO/lib/*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ===========================
+# Java - Répertoires build
+# ===========================
+bin/
+target/
+build/
+out/
+dist/
+
+# ===========================
+# Eclipse IDE
+# ===========================
+.metadata/
+.settings/
+.classpath
+.project
+.recommenders/
+.loadpath
+.externalToolBuilders/
+*.launch
+local.properties
+
+# ===========================
+# IntelliJ IDEA
+# ===========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# NetBeans
+# ===========================
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===========================
+# PHP
+# ===========================
+vendor/
+composer.phar
+composer.lock
+
+# ===========================
+# Logs et fichiers temporaires
+# ===========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# ===========================
+# Configuration locale
+# ===========================
+# Décommentez si vous avez des credentials locaux
+# config/connexion.php
+# .env
+
+# ===========================
+# Node.js (si utilisé)
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ===========================
+# Base de données
+# ===========================
+*.sql.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================
+# Archives
+# ===========================
+*.zip
+*.tar.gz
+*.rar
+*.7z

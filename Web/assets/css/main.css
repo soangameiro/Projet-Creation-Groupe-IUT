@@ -1,0 +1,13 @@
+/* ==========================================================================
+   FICHIER D'IMPORT PRINCIPAL
+   Importe tous les fichiers CSS modulaires dans le bon ordre
+   ========================================================================== */
+
+/* 1. Base - Variables, reset, layout */
+@import url('style.css');
+
+/* 2. Composants réutilisables - Buttons, cards, header, footer */
+@import url('components.css');
+
+/* 3. Pages spécifiques */
+@import url('pages.css');
